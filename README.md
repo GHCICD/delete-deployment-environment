@@ -35,6 +35,7 @@ The required permissions for your GitHub App depend on the options you pass to t
 3. Add your GitHub App's "App ID" to your repo's [Actions Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) _(ex: `GH_APP_ID`)_
 4. Add your Private Key to your repo's [Actions Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) _(ex: `GH_APP_PRIVATE_KEY`)_
 5. Use [navikt/github-app-token-generator](https://github.com/navikt/github-app-token-generator) before using this action to generate a JWT
+6. Ensure your GitHub App has these permissions; **Deployments**: write, **Environments**: write
 
    #### Example
 
